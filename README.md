@@ -38,7 +38,7 @@ Run the aggregator:
 To use the `splyce.yaml` instead of Prometheus:
 
 ```bash
-./splyce --config=/path/to/splyce.yaml
+./splyce --config=splyce.yaml
 ```
 
 ## Example Metrics Input
