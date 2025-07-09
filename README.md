@@ -1,17 +1,8 @@
-# StatsD Aggregator
+# splyce
 
-A lightweight StatsD-like UDP metrics aggregator with Prometheus output support.
+splyce is a lightweight StatsD-like UDP metrics aggregator with Prometheus output support.
 
-## Features
-- Counters, gauges, and timers
-- Histogram buckets for `ms` timer data
-- Prometheus-compatible `/metrics` endpoint
-- Dockerfile included
-
-## Usage
-
-### Run directly:
-```
+```bash
 go run main.go
 ```
 
