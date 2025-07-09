@@ -34,6 +34,25 @@ Run the aggregator:
 echo "api_hits:1|c|@0.5" | nc -u -w0 127.0.0.1 8125
 echo "latency:250|ms"   | nc -u -w0 127.0.0.1 8125
 ```
+## Prometheus Integration
+
+If you'd like to use Prometheus: 
+
+```bash
+scrape_configs:
+  - job_name: 'splyce'
+    static_configs:
+      - targets: ['localhost:9100']
+```
+splyce in particular exposes these metrics:
+
+```bash
+splyce_counter_api_requests 5
+splyce_gauge_loadavg 0.42
+splyce_timer_latency_bucket{le="100"} 1
+splyce_timer_latency_count 1
+splyce_timer_latency_sum 123
+```
 
 ## Author
 Michael Mendy (c) 2025.
