@@ -47,7 +47,7 @@ splyce and Prometheus work together rather than in conflict:
 
 | File             | Purpose                              | Used by    |
 | ---------------- | ------------------------------------ | ---------- |
-| `splyce.yaml`    | Configures the Splyce aggregator     | Splyce     |
+| `splyce.yaml`    | Configures the Splyce aggregator     | splyce     |
 | `prometheus.yml` | Configures Prometheus scraping rules | Prometheus |
 
 
