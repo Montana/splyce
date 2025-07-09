@@ -19,7 +19,7 @@ splyce is a lightweight StatsD-compatible metrics aggregator written in Go. It c
 Clone the repository and build the binary:
 
 ```bash
-git clone https://github.com/your-username/splyce.git
+git clone https://github.com/montana/splyce.git
 cd splyce
 go build -o splyce main.go
 ```
