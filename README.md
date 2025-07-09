@@ -1,4 +1,4 @@
-# Splyce
+# splyce
 
 splyce is a lightweight StatsD-compatible metrics aggregator written in Go. It collects metrics over UDP, performs local aggregation, and exposes results in Prometheus-compatible format over HTTP.
 
