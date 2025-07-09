@@ -14,6 +14,8 @@ splyce is a lightweight StatsD-compatible metrics aggregator written in Go. It c
 - Periodic flushing of histograms
 - Minimal resource usage and zero external dependencies
 
+<br>
+
 
 <img width="983" alt="Screenshot 2025-07-08 at 7 19 00 PM" src="https://github.com/user-attachments/assets/031ba313-ef10-4be1-80b5-4ebc4719e242" />
 
