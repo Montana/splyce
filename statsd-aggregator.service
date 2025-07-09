@@ -1,0 +1,18 @@
+[Unit]
+Description=Splyce Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/splyce
+Restart=on-failure
+User=splyce
+Group=splyce
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+ProtectSystem=full
+NoNewPrivileges=true
+WorkingDirectory=/var/lib/splyce
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
