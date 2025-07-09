@@ -35,11 +35,21 @@ Run the aggregator:
 ./splyce
 ```
 
-To use the `splyce.yaml` instead of Prometheus:
+To use the `splyce.yaml`:
 
 ```bash
 ./splyce --config=splyce.yaml
 ```
+
+## spylce and Prometheus 
+
+splyce and Prometheus work together rather than in conflict: 
+
+| File             | Purpose                              | Used by    |
+| ---------------- | ------------------------------------ | ---------- |
+| `splyce.yaml`    | Configures the Splyce aggregator     | Splyce     |
+| `prometheus.yml` | Configures Prometheus scraping rules | Prometheus |
+
 
 ## Example Metrics Input
 
